@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/scrollbar";
 import { Autoplay, Scrollbar } from "swiper/modules";
-import "../app.css"; // 引入 Tailwind Swiper 样式
+import "../app.scss"; // 引入 Tailwind Swiper 样式
 
 const photos = [
     {
