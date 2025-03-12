@@ -1,0 +1,25 @@
+#root {
+  max-width: 1880px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center; }
+
+.navbar {
+  @apply fixed top-0 left-0 w-full bg-white shadow-md py-4 px-6 z-50; }
+
+.navbar ul {
+  @apply flex justify-center space-x-6 text-xl font-semibold; }
+
+.navbar li a {
+  @apply hover:text-blue-500; }
+
+ul:not(.navbar ul) {
+  list-style: none;
+  padding: 0;
+  text-align: center; }
+
+li:not(.navbar li) {
+  display: inline-block;
+  margin: 0 10px; }
+
+/*# sourceMappingURL=App.css.map */
