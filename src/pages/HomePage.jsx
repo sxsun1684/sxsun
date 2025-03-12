@@ -1,4 +1,4 @@
-import Avatar from "../components/Avatar/Avatar.jsx";
+import Avatar from "../components/Avatar/Avatar";
 
 const HomePage = () => {
     return (
@@ -6,14 +6,19 @@ const HomePage = () => {
             {/* 头像容器 */}
             <div className="relative flex items-center justify-center mb-10">
                 {/* 霓虹光环 */}
-                <div className="absolute w-64 h-64 rounded-full bg-gradient-to-r from-purple-500 via-blue-500 to-pink-500 opacity-50 blur-[80px] animate-pulse-slow"></div>
-                <Avatar src="../../imgs/photo.jpg" alt="User Avatar" />
+                <div className="absolute w-64 h-64 rounded-full bg-gradient-to-r from-purple-500 via-blue-500 to-pink-500 opacity-50 blur-[80px] animate-spin-slow"></div>
+                <Avatar
+                    src="../../imgs/photo.jpg"
+                    alt="User Avatar"
+                    srcSet="../../imgs/photo-small.jpg 1x, ../../imgs/photo-large.jpg 2x"
+                    aria-label="User's profile picture"
+                />
             </div>
             
             {/* 介绍卡片 */}
             <div className="flex flex-col items-center text-center
                 bg-white/10 backdrop-blur-lg shadow-2xl hover:shadow-3xl transition-all duration-500
-                rounded-3xl p-12 w-4/5 max-w-3xl hover:ring-4 hover:ring-pink-300 animate-fadeIn hover:scale-105">
+                rounded-3xl p-8 sm:p-12 w-full sm:w-4/5 max-w-3xl hover:ring-4 hover:ring-pink-300 animate-fadeIn hover:scale-105">
                 
                 {/* 标题 */}
                 <h1 className="text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-500 hover:scale-110 transition-transform duration-300">
@@ -38,6 +43,19 @@ const HomePage = () => {
                 
                 {/* 个人签名 */}
                 <p className="text-yellow-400 font-semibold mt-8 text-2xl animate-pulse">By S.X.SUN</p>
+                
+                {/* 社交媒体图标 */}
+                <div className="mt-8 flex space-x-4">
+                    <a href="https://twitter.com/yourhandle" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors duration-300">
+                        <i className="fab fa-twitter text-xl"></i>
+                    </a>
+                    <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
+                        <i className="fab fa-github text-xl"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-600 transition-colors duration-300">
+                        <i className="fab fa-linkedin text-xl"></i>
+                    </a>
+                </div>
             </div>
         </div>
     );

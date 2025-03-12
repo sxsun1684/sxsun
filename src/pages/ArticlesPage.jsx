@@ -2,7 +2,7 @@ import { useState } from "react";
 import ArticleModal from "../components/ArticleModal/ArticleModal"; // 引入 Modal
 
 const articles = [
-    { title: "Resolving Kafka Startup Issues: Missing Environment Variable KAFKA_LISTENERS", date: "March 11, 2024", tags: ["Python", "Kafka"], slug: "/sxhub/2025031102" },
+    { title: "Resolving Kafka Startup Issues: Missing Environment Variable KAFKA_LISTENERS", date: "March 11, 2024", tags: ["Python", "Kafka"], slug: "2025031102" },
     // { title: "Deep Dive into AI and NLP", date: "March 5, 2025", tags: ["AI", "NLP"], slug: "ai-nlp" },
 ];
 
