@@ -6,7 +6,7 @@ const contacts = [
         name: "Email",
         icon: <FaEnvelope />,
         link: "mailto:sixia.sun@outlook.com",
-        color: "text-red-400",
+        color: "text-lime-400",
         bgColor: "from-red-500 to-red-700",
         displayText: "sixia.sun@outlook.com"
     },
@@ -15,7 +15,7 @@ const contacts = [
         name: "LinkedIn",
         icon: <FaLinkedin />,
         link: "https://www.linkedin.com/in/sxsun-neu",
-        color: "text-blue-500",
+        color: "text-yellow-500",
         bgColor: "from-blue-500 to-blue-700",
         displayText: "linkedin.com/in/sxsun-neu"
     },
@@ -23,10 +23,10 @@ const contacts = [
         id: 3,
         name: "Kaggle",
         icon: <FaKaggle />,
-        link: "https://www.kaggle.com/your-kaggle-profile", // ❗ 这里换成你的 Kaggle 主页
-        color: "text-purple-400",
+        link: "https://www.kaggle.com/my-kaggle-profile", // ❗ 这里换成你的 Kaggle 主页
+        color: "text-sky-400",
         bgColor: "from-purple-500 to-purple-700",
-        displayText: "kaggle.com/your-kaggle-profile"
+        displayText: "kaggle.com/to-be-continued"
     }
 ];
 
