@@ -32,8 +32,8 @@ const HomePage = () => {
                 
                 {/* 个人介绍 */}
                 <p className="mt-6 text-gray-200 text-lg leading-relaxed">
-                    I specialize in <span className="text-purple-400 font-semibold">Natural Language Processing (NLP)</span>, <span className="text-blue-400 font-semibold">distributed systems</span>, and <span className="text-pink-400 font-semibold">cloud computing</span>.
-                    Passionate about <span className="text-yellow-400 font-semibold">AI-powered applications</span>, I create high-performance systems using <span className="text-green-400 font-semibold">Python, Java, and JavaScript</span>.
+                    I specialize in <span className="text-purple-400 font-semibold">AI/Machine Learning</span>, <span className="text-blue-400 font-semibold">scalable distributed systems</span>, and <span className="text-pink-400 font-semibold">high performance optimization</span>.
+                    Passionate about <span className="text-yellow-400 font-semibold">personalized recommendation systems with AI-powered applications</span>, I usually develop systems using <span className="text-green-400 font-semibold">Python, Java, and JavaScript</span>.
                 </p>
                 
                 {/* 学历介绍（使用 `{}` 方式修正单引号） */}
