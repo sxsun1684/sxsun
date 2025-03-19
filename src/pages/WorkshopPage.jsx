@@ -8,7 +8,7 @@ const projects = [
         description: "A real-time news recommendation system using collaborative filtering and Elasticsearch.",
         image: "/imgs/news-recommend.png",
         link: "https://github.com/sxsun1684/news-recommendation-system",
-        tags: ["Python", "Redis", "DynamoDB","Elasticsearch", "Kafka","LLM","React","Tailwind CSS"]
+        tags: ["Python", "Redis", "DynamoDB","Elasticsearch", "Kafka","ML","React","Tailwind CSS"]
     },
     {
         id: 2,
