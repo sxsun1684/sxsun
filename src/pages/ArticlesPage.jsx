@@ -3,7 +3,7 @@ import ArticleModal from "../components/ArticleModal/ArticleModal"; // 引入 Mo
 
 const articles = [
     { title: "Resolving Kafka Startup Issues: Missing Environment Variable KAFKA_LISTENERS", date: "March 11, 2024", tags: ["Python", "Kafka"], slug: "2025031102" },
-    // { title: "Deep Dive into AI and NLP", date: "March 5, 2025", tags: ["AI", "NLP"], slug: "ai-nlp" },
+    { title: "Why Store Immutable Data in a Database Instead of Caching It?", date: "March 5, 2025", tags: ["Database", "Cache"], slug: "20250318" },
 ];
 
 const ArticlesPage = () => {

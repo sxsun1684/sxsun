@@ -7,7 +7,7 @@ const projects = [
         name: "News Recommendation System(In-progress)",
         description: "A real-time news recommendation system using collaborative filtering and Elasticsearch.",
         image: "/imgs/news-recommend.png",
-        link: "https://github.com/yourusername/news-recommendation",
+        link: "https://github.com/sxsun1684/news-recommendation-system",
         tags: ["Python", "Redis", "DynamoDB","Elasticsearch", "Kafka","LLM","React","Tailwind CSS"]
     },
     {
@@ -15,7 +15,7 @@ const projects = [
         name: "Personalized Campus Second-Hand Platform",
         description: "A second-hand trading platform using collaborative filtering for personalized recommendations.",
         image: "/imgs/campus.png",
-        link: "https://github.com/yourusername/stock-prediction",
+        link: "https://github.com/sxsun1684/market-platform",
         tags: ["Java","MySQL", "Spring Boot","Collaborative Filtering", "Vue.js","Element-UI"]
     },
     {
@@ -23,7 +23,7 @@ const projects = [
         name: "AI-Powered Note-Taking App",
         description: "An AI-driven system for automated language proficiency assessment using NLP and speech recognition.",
         image: "/imgs/ai-pdf.png",
-        link: "https://github.com/yourusername/ai-language-assessment",
+        link: "https://github.com/sxsun1684/ai-takenote",
         tags: ["Clerk", "Convex DB","Next.js","Gemini API","React","Tailwind CSS","LangChain"]
     },
 ];
@@ -36,9 +36,9 @@ const WorkshopPage = () => {
             <h1 className="text-5xl font-bold text-center text-violet-400 mb-12">
                 My Projects
             </h1>
-            <span className="text-2xl mb-2.5 block">
-                Sorry, at the moment I only intend to provide relevant GitHub links in my personal resume.
-            </span>
+            {/*<span className="text-2xl mb-2.5 block">*/}
+            {/*    Sorry, at the moment I only intend to provide relevant GitHub links in my personal resume.*/}
+            {/*</span>*/}
             
             {/* 项目卡片 */}
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
